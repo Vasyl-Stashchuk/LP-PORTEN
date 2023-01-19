@@ -4,6 +4,15 @@
     /* color: white; */
 }
 
+.super-hr {
+    width: 120px;
+    margin: 2.5% 0;
+}
+
+p {
+    
+}
+
 .top-line {
     background-color: black;
     display: flex;
@@ -14,6 +23,19 @@
     font-weight: 400;
     color: gray;
     height: 44px;
+    /* padding: 0 3% 0 3%; */
+}
+
+.top-left {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    align-items: center;
+}
+
+.top-right {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    align-items: center;
 }
 
 nav {
@@ -136,12 +158,9 @@ nav .active {
     line-height: 48px;
     text-align: center;
     text-transform: uppercase;
+    padding: 3% 0;
 }
 
-.super-hr {
-    width: 120px;
-    margin: 1rem;
-}
 
 .season-block {
     display: grid;
@@ -286,7 +305,7 @@ nav .active {
     line-height: 48px;
     text-align: center;
     text-transform: uppercase;
-    
+    padding: 4% 0 0%;
 }
 
 .goods {
@@ -370,6 +389,7 @@ nav .active {
     line-height: 48px;
     text-align: center;
     text-transform: uppercase;
+    padding: 3% 0 0%;
 }
 
 .articles .articles-block {
@@ -438,6 +458,7 @@ nav .active {
     flex-direction: column;
     align-items: center;
     color: white;
+    padding: 3% 0 4%;
 }
 
 .our-brands p {
@@ -448,6 +469,7 @@ nav .active {
     line-height: 48px;
     text-align: center;
     text-transform: uppercase;
+    /* padding: 3% 0 0%; */
 }
 
 .our-brands-block {
@@ -455,14 +477,11 @@ nav .active {
 }
 
 
-
-
-
 footer {
     background-image: url(/img/footer/Rectangle\ 15.png);
     display: grid;
     grid-template-columns: 1fr 0.5fr 1fr;
-    padding: 4% 0;
+    padding: 5% 9%;
     color: white;
 }
 
@@ -473,6 +492,7 @@ footer .big-p {
     font-size: 24px;
     line-height: 32px;
     text-transform: uppercase;
+    padding: 2% 0 8%;
 }
 
 footer .small-p {
@@ -481,7 +501,7 @@ footer .small-p {
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
-    
+    padding: 2% 0 8%;
 }
 
 footer .footer-category {
@@ -571,7 +591,7 @@ footer .footer-category a {
 }
 
 .last-line {
-    background-color: black;
+    background: #0F0F0F;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
