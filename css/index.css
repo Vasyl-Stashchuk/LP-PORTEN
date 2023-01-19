@@ -4,6 +4,8 @@
     /* color: white; */
 }
 
+
+
 .super-hr {
     width: 120px;
     margin: 2.5% 0;
@@ -127,7 +129,7 @@ nav img {
 
 nav .active {
     background-color: #1F1F1F;
-    padding: 31px 1%;
+    padding: 31px 2%;
 }
 
 
@@ -163,7 +165,7 @@ nav .active {
         font-family: 'PT Sans';
         font-style: normal;
         font-weight: 400;
-        font-size: 8px;
+        font-size: 10px;
         line-height: 150%;
         text-align: center;
         text-transform: uppercase;
@@ -276,16 +278,9 @@ nav .active {
     padding: 0 3%;
 }
 
-.new-season p {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 48px;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 3% 0;
-}
+
+
+
 
 @media screen and (min-width:600px) {
     .season-block {
@@ -296,6 +291,36 @@ nav .active {
     .season-product img{
         max-width: 100%;
     }
+
+    .new-season p {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 3% 0;
+    }
+
+    .season-product .big-p {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: left;
+    }
+    
+    .season-product .small-p {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: left;
+    }
+
 }
 
 
@@ -310,6 +335,35 @@ nav .active {
     .season-product img{
         max-width: 69%;
     }
+
+    .new-season p {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        /* line-height: 48px; */
+        text-align: center;
+        text-transform: uppercase;
+        padding: 3% 0;
+    }
+
+    .season-product .big-p {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        /* line-height: 24px; */
+        text-align: left;
+    }
+    
+    .season-product .small-p {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        /* line-height: 21px; */
+        text-align: left;
+    }
 }
 
 
@@ -323,23 +377,7 @@ nav .active {
     
 }
 
-.season-product .big-p {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    text-align: left;
-}
 
-.season-product .small-p {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 21px;
-    text-align: left;
-}
 
 .new-collection {
     background-image: url(../img/new-collection/new-collection.png);
@@ -453,16 +491,7 @@ nav .active {
     color: white;
 }
 
-.new-goods p {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 48px;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 4% 0 0%;
-}
+
 
 @media screen and (max-width:900px) {
     .goods {
@@ -470,7 +499,37 @@ nav .active {
         grid-template-columns: 1fr 1fr; 
         /* padding: 0 20%; */
     }
+    .goods .new-goods-product {
+        padding: 10px 20px;
+    }
+    .new-goods p {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        /* line-height: 48px; */
+        text-align: center;
+        text-transform: uppercase;
+        padding: 4% 0 0%;
+    }
+
+    .goods .new-goods-product .big-p {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        /* line-height: 24px; */
+        text-align: left;
+    }
     
+    .goods .new-goods-product .small-p {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        /* line-height: 21px; */
+        text-align: left;
+    }
 }
 
 @media screen and (min-width:900px) and (max-width:1300px) {
@@ -480,7 +539,37 @@ nav .active {
         grid-template-columns: 1fr 1fr 1fr; 
         /* padding: 0 20%; */
     }
+    .goods .new-goods-product {
+        padding: 20px 12px;
+    }
+    .new-goods p {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 4% 0 0%;
+    }
+
+    .goods .new-goods-product .big-p {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: left;
+    }
     
+    .goods .new-goods-product .small-p {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: left;
+    }
 }
 
 @media screen and (min-width:1300px) {
@@ -489,13 +578,43 @@ nav .active {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         /* padding: 0 20%; */
     }
+    .goods .new-goods-product {
+        padding: 20px 12px;
+    }
+    .new-goods p {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 4% 0 0%;
+    }
+
+    .goods .new-goods-product .big-p {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: left;
+    }
     
+    .goods .new-goods-product .small-p {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: left;
+    }
 }
 
 .goods .new-goods-product {
+
     display: flex;
     flex-direction: column;
-    padding: 20px 12px;
     /* width: 260px; */
     /* height: 405px;   */
 }
@@ -506,23 +625,7 @@ nav .active {
     max-width: 100%;
 }
 
-.goods .new-goods-product .big-p {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    text-align: left;
-}
 
-.goods .new-goods-product .small-p {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 21px;
-    text-align: left;
-}
 
 .goods .new-goods-product .more { 
     filter: blur(1px) brightness(80%);
@@ -561,16 +664,6 @@ nav .active {
 }
 
 
-.articles p{
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 48px;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 3% 0 0%;
-}
 
 @media screen and (max-width:1600px) {
     .articles .articles-block {
@@ -580,6 +673,35 @@ nav .active {
     }
     .articles .articles-photo img {
         max-width: 100%;
+    }
+    .articles p{
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 48px;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 3% 0 0%;
+    }
+    
+}
+
+
+
+@media screen and (min-width:1600px) {
+    .articles p{
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 3% 0 0%;
+    }
+    .articles .articles-photo img {
+        /* max-width: 100%; */
     }
 }
 
@@ -735,7 +857,7 @@ nav .active {
         background-repeat: no-repeat;
         background-position: center;
         grid-template-rows: 1fr 0.5fr 1fr;
-        padding: 5% 9%;
+        padding: 3% 3%;
         color: white;
         /* justify-items: center; */
     }
