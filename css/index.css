@@ -9,10 +9,6 @@
     margin: 2.5% 0;
 }
 
-p {
-    
-}
-
 .top-line {
     background-color: black;
     display: flex;
@@ -69,6 +65,30 @@ nav a {
     padding: 0 1%;
 }
 
+@media screen and (max-width:1600px) {
+
+    nav p {
+        font-family: 'Post No Bills Jaffna';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 54px;
+        padding-right: 44%;
+    }
+    
+    nav a {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: gray;
+        text-decoration: none;
+        padding: 0 1%;
+    }
+}
+
 nav img {
     padding: 0 1%;
 }
@@ -79,7 +99,7 @@ nav .active {
 }
 
 .first-screen {
-    background-image: url(/img/first-screen/first-screen.png);
+    background-image: url(../img/first-screen/first-screen.png);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,7 +156,17 @@ nav .active {
 .new-season-collection {
     display: flex;
     flex-direction: row;
-    height: 730px;
+    /* height: 730px; */
+}
+
+
+@media screen and (max-width:1600px) {
+    
+    .new-season-collection {
+        display: flex;
+        flex-direction: column;
+        /* height: 730px; */
+    }
 }
 
 .new-season {
@@ -197,14 +227,14 @@ nav .active {
 }
 
 .new-collection {
-    background-image: url(/img/new-collection/new-collection.png);
+    background-image: url(../img/new-collection/new-collection.png);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
     width: 45.83%;
-    padding-top: 23%;
+    padding: 25% 0 5.9%;
     /* padding: 23% 15% 0 ; */
 }
 
@@ -478,7 +508,7 @@ nav .active {
 
 
 footer {
-    background-image: url(/img/footer/footer.png);
+    background-image: url(../img/footer/footer.png);
     display: grid;
     grid-template-columns: 1fr 0.5fr 1fr;
     padding: 5% 9%;
