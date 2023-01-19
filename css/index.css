@@ -1,10 +1,7 @@
 * {
     margin: 0;
     scroll-behavior: smooth;
-    /* color: white; */
 }
-
-
 
 .super-hr {
     width: 120px;
@@ -449,9 +446,6 @@ nav .active {
     
 }
 
-.collection-2018 .left-photo {
-    /* max-width: 48.75%; */
-}
 
 .collection-2018 .collection {
     background-color: black;
@@ -719,9 +713,7 @@ nav .active {
         text-transform: uppercase;
         padding: 3% 0 0%;
     }
-    .articles .articles-photo img {
-        /* max-width: 100%; */
-    }
+   
 }
 
 .articles .articles-block {
@@ -730,9 +722,7 @@ nav .active {
     align-items: center;
 }
 
-.articles .articles-photo img {
-    
-}
+
 
 
 .articles .articles-block .big-p {
