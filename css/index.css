@@ -79,7 +79,7 @@ nav .active {
 }
 
 .first-screen {
-    background-image: url(/img/first-screen/Rectangle\ 3.png);
+    background-image: url(/img/first-screen/first-screen.png);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -197,7 +197,7 @@ nav .active {
 }
 
 .new-collection {
-    background-image: url(/img/new-collection/Rectangle\ 8.png);
+    background-image: url(/img/new-collection/new-collection.png);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -478,7 +478,7 @@ nav .active {
 
 
 footer {
-    background-image: url(/img/footer/Rectangle\ 15.png);
+    background-image: url(/img/footer/footer.png);
     display: grid;
     grid-template-columns: 1fr 0.5fr 1fr;
     padding: 5% 9%;
