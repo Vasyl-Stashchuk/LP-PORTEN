@@ -439,6 +439,16 @@ nav .active {
     background: black;
 }
 
+
+@media screen and (min-width:1600px) {
+
+    .collection-2018 .left-photo {
+        display: block;
+    }
+
+}
+
+
 @media screen and (max-width:1600px) {
     .collection-2018 .left-photo {
         display: none;
