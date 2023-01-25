@@ -638,8 +638,7 @@ nav .active {
 
     display: flex;
     flex-direction: column;
-    /* width: 260px; */
-    /* height: 405px;   */
+    max-width: 100%;
 }
 
 .goods .new-goods-product img {
