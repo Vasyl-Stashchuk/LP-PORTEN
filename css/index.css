@@ -25,7 +25,12 @@
     display: grid;
     grid-template-columns: 0.1fr 1fr;
     align-items: center;
+    justify-items: center;
 }
+
+.top-left p {
+    text-decoration: none;
+}    
 
 .top-right {
     display: grid;
