@@ -88,6 +88,12 @@ nav a {
     padding: 0 1%;
 }
 
+nav a:hover,
+nav a :active {
+
+    font-weight: 700;
+}
+
 @media screen and (max-width:1600px) and (min-width:500px) {
 
     nav p {
@@ -151,6 +157,7 @@ nav img {
 nav .active {
     background-color: #1F1F1F;
     padding: 31px 2%;
+    font-weight: 500;
 }
 
 
@@ -395,6 +402,12 @@ nav .active {
 .season-product img {
     background: #191B1C;
     padding: 10%;
+    transition: 1s;
+    
+}
+
+.season-product img:hover {
+    transform: scale(1.1);
     
 }
 
@@ -519,11 +532,11 @@ nav .active {
     padding: 12px 28px;
 }
 
-.collection a :hover,
-.collection a :active {
+.collection a:hover,
+.collection a:active {
     background-color: white;
     color: black;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 
