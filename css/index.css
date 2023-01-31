@@ -266,7 +266,7 @@
 
 
 
-@media screen and (max-width:1600px) {
+@media screen and (max-width:1400px) {
     
     .new-season-collection {
         display: flex;
@@ -454,20 +454,36 @@
         display: block;
     }
 
-    
+    .collection-2018 .collection {
+        padding: 5% 9%;
+    }
+}
 
+@media screen and (max-width:1600px) and (min-width:1400px) {
+    .collection-2018 .collection {
+        padding: 5% 4%;
+    }
+    .collection-2018 .left-photo {
+        display: block;
+    }
+    
 }
 
 
-@media screen and (max-width:1600px) {
+@media screen and (max-width:1400px) {
     .collection-2018 .left-photo {
         display: none;
+    }
+
+    .collection-2018 .collection {
+        padding: 5% 16%;
     }
     
 }
 
 
 .collection-2018 .collection {
+    /* padding: 5% 9%; */
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -475,7 +491,6 @@
     justify-content: center;
     color: white;
     /* width: 52%; */
-    padding: 5% 9%;
 }
 
 .collection-2018 .collection .big-p {
