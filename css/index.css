@@ -294,6 +294,11 @@
 
 
 @media screen and (min-width:600px) {
+
+    .season-product {
+        padding: 0 47px; 
+    }
+
     .season-block {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -337,10 +342,20 @@
 
 @media screen and (max-width:600px) {
 
-    .season-block {
+    .season-product {
+        /* padding: 0 47px; */
         display: flex;
         flex-direction: column;
-        padding-left: 4%;
+        align-items: center;
+    }
+
+    .season-block {
+        /* display: flex;
+        flex-direction: column;
+        padding-left: 4%; */
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .season-product img{
@@ -378,19 +393,17 @@
 }
 
 
-.season-product {
-    padding: 0 47px;
-}
+
 
 .season-product img {
     background: #191B1C;
     padding: 10%;
-    transition: 1s;
+    /* transition: 1s; */
     
 }
 
 .season-product img:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     
 }
 
@@ -452,6 +465,7 @@
 
     .collection-2018 .left-photo {
         display: block;
+        max-width: 55%;
     }
 
     .collection-2018 .collection {
@@ -465,6 +479,7 @@
     }
     .collection-2018 .left-photo {
         display: block;
+        max-width: 54%;
     }
     
 }
@@ -705,11 +720,11 @@
         background: #191B1C;
         padding: 10%;
         max-width: 90%;
-        transition: 1s;
+        /* transition: 1s; */
     }
 
     .goods .new-goods-product img:hover {
-        transform: scale(1.1);
+        /* transform: scale(1.1); */
         
     }
 
