@@ -4,3 +4,124 @@
     src: url("/fonts/post-no-bills-jaffna-cdnfonts/PostNoBillsJaffna-Bold.ttf") format("ttf");
         
    }
+
+   @media screen and (max-width:700px) {
+    nav {
+        background-color: #0F0F0F;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        height: 80px;
+        padding: 0 5%;
+    }
+    
+}
+
+@media screen and (min-width:700px) {
+    nav {
+        background-color: #0F0F0F;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        height: 80px;
+        padding: 0 19%;
+    }
+    
+}
+
+
+
+nav p {
+    font-family: 'Post No Bills Jaffna';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    padding-right: 44%;
+}
+
+nav a {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: gray;
+    text-decoration: none;
+    padding: 0 1%;
+}
+
+nav a:hover,
+nav a :active {
+
+    font-weight: 700;
+}
+
+@media screen and (max-width:1600px) and (min-width:500px) {
+
+    nav p {
+        font-family: 'Post No Bills Jaffna';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 54px;
+        padding-right: 44%;
+    }
+    
+    nav a {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: gray;
+        text-decoration: none;
+        padding: 0 1%;
+    }
+
+    
+}
+
+@media screen and (max-width:500px) {
+
+    nav p {
+        font-family: 'Post No Bills Jaffna';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 54px;
+        padding-right: 10%;
+    }
+    
+    nav a {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: gray;
+        text-decoration: none;
+        padding: 0 1%;
+    }
+
+    nav img {
+        max-width: 6%;
+    }
+}
+
+
+
+nav img {
+    padding: 0 1%;
+}
+
+nav .active {
+    background-color: #1F1F1F;
+    padding: 31px 2%;
+    font-weight: 500;
+}
