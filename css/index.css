@@ -258,11 +258,16 @@
     width: 179px;;
 }
 
-.new-season-collection {
-    display: flex;
-    flex-direction: row;
-    /* height: 730px; */
+
+@media screen and (min-width:1400px) {
+    .new-season-collection {
+        display: flex;
+        flex-direction: row;
+        /* height: 730px; */
+    }
 }
+
+
 
 
 
@@ -285,7 +290,7 @@
     align-items: center;
     justify-content: center;
     color: white;
-    /* width: 54.16%; */
+    /* width: 55%; */
     padding: 3% 3%;
 }
 
@@ -408,19 +413,54 @@
 }
 
 
+@media screen and (max-width:1400px) {
+
+    .new-season {
+        width: auto ;
+    }
+    
+    .new-collection {
+        width: auto;
+    }
+
+    .new-colblock {
+        padding: 37% 12.5% 3.9%;
+    }
+}
+@media screen and (min-width:1400px) {
+
+    .new-season {
+        width: 55% ;
+    }
+
+    .new-collection {
+        width: 51%;
+    }
+
+    .new-colblock {
+        padding: 52% 31.5% 3.9%;
+    }
+}
+
 
 .new-collection {
     background-image: url(../img/new-collection/new-collection.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    color: white;
-    /* width: 45.83%; */
-    padding: 25% 14.5% 5.9%;
+    /* width: 51%; */
+    /* padding: 25% 14.5% 5.9%; */
     /* padding: 23% 15% 0 ; */
+}
+
+.new-colblock {
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .new-collection p {
