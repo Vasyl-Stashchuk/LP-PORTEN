@@ -56,7 +56,7 @@
 .navbar a {
     font-family: 'PT Sans';
     font-style: normal;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
@@ -83,12 +83,16 @@
     list-style: none;
     display: flex;
     gap: 50px;
-    align-items: center;
+    align-items: center;   
 }
+
 #toggler,
 .navbar label {
     display: none;
+    /* transition: 1s; */
 }
+
+
 
 
 @media screen and (min-width: 1050px) {
@@ -99,10 +103,12 @@
         padding: 0% 19%;
     }
 
+    
+
     .active {
         background-color: #1F1F1F;
         padding: 31px 2%;
-        font-weight: 500;
+        font-weight: 800;
     }
 
 }
@@ -114,24 +120,36 @@
     .navbar {
         padding: 2% 7%;
     }
+
+    
+    .active {
+        /* background-color: #1F1F1F; */
+        /* padding: 31px 2%; */
+        font-weight: 800;
+    }
+    
     
     .menu {
         width: 100%;
         max-height: 0;
         overflow: hidden;
+        
     }
     .list {
         flex-direction: column;
         align-items: center;
         padding: 20px;
+        
     }
     .navbar label {
         display: inline-flex;
         align-items: center;
         cursor: pointer;
+        color: white;
     }
     #toggler:checked ~ .menu {
         max-height: 100%;
+        
     }
 
     .active {
@@ -957,6 +975,13 @@
     /* padding: 3% 0 0%; */
 }
 
+.our-brand-block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 
@@ -986,7 +1011,7 @@
     
 }
 
-@media screen and (min-width:1100px) {
+@media screen and (min-width:1200px) {
 
     
     footer {
@@ -1012,10 +1037,17 @@
         display: flex ;
         flex-direction: row;
     }
-    
+
+    footer .footer-category a {
+        font-size: 14px;
+    }
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1200px) {
+
+    footer .footer-category a {
+        font-size: 11px;
+    }
 
     footer {
         background-image: url(../img/footer/footer.png);
@@ -1087,7 +1119,7 @@ footer .footer-category a {
     font-family: 'PT Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    /* font-size: 14px; */
     line-height: 150%;
     background: #0F0F0F;
     text-decoration: none;
