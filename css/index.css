@@ -301,7 +301,7 @@
 @media screen and (min-width:600px) {
 
     .season-product {
-        padding: 0 47px; 
+        padding: 0 3rem; 
     }
 
     .season-block {
@@ -348,7 +348,8 @@
 @media screen and (max-width:600px) {
 
     .season-product {
-        /* padding: 0 47px; */
+        
+        padding: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
